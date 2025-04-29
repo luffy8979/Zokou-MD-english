@@ -12,7 +12,7 @@
   "succes_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {
+    "PREFIX": {.}
       "description": "choose your bot prefix",
       "value": "#",
       "required": true
@@ -55,32 +55,32 @@
       "description": "insert your Heroku APP NAME (this is optional)",
       "required": false
     },
-    "SESSION_ID": {
+    "SESSION_ID": {Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicUlpdTBFTTQ4b2JwUzZ0T0FVQ0N4N2x4UkpkRXBwdTRQUzd0eklaVk1tVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicGI4ZUdkVFYzS3FJUm9jVCszWmhpeHVHMTZlZFYwZXhMRGUrMk9HVzJGTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPT0VUMHhTMWtqd3R1QnNNRGdoQ1V0aFNEWnR0MGpCTW1GajU0b1lwTVhRPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ4QVVCYmpTQTdhMk4xd1JqcXlyVWMwd3c5OXkrRUcxT2g0MU5mQ0dLWGhjPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdJRGpsR25GMndxSWQ1RExjeGRLblBRMnJjS3lUUS8rWkhLaHZUbkR6MTA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBzdkZqdk5oZWVzcDZmV2MxczVEdnBwN1B4OGlGdWFGaGpEWTZwcG5XaEE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUp5STVIeU16RTVXQ0ZkVFc3UXlUV1NEck1ubUNXTzUxZXA0ZHFMTlNraz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZDJVb0NOYi9JQkZtalkxdnVnOWVpOTNaQ2M2ZmdPR3Q1UHIrbit4cmNCcz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjRPaDVidmh6WlFRMTRmUHN1dmFHQ3ppbFFXdkIwamFIckVUUW05bkFhZjhJTXRGU1lmTldQZU1lVDhGem5KY2kwQ01pQXlYcGdtWm5Id09WSWQ4ckRnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6ODEsImFkdlNlY3JldEtleSI6Ik1ESUtOdk5Yd3lLcEtaVmlxb2dwWU5GREh4bFZrSno2NmhpVDh6TXY5Umc9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiNTA5NTUxODQ0MDZAcy53aGF0c2FwcC5uZXQiLCJmcm9tTWUiOnRydWUsImlkIjoiODdBNjI0NEEyOTVGNUJCQjcxNUY4NkFEODgzNzRFQkEifSwibWVzc2FnZVRpbWVzdGFtcCI6MTc0NTk2MDcyNH1dLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MSwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sInJlZ2lzdGVyZWQiOnRydWUsInBhaXJpbmdDb2RlIjoiUThWUlo1TTgiLCJsYXN0UHJvcEhhc2giOiJubTNCYiIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0EwSUNBPT0ifSwibWUiOnsiaWQiOiI1MDk1NTE4NDQwNjoyMUBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiLwkouy8J2Qt/Cdm6XwnZGF8J2bq/CSi7JcbvCdmqpcbvCdmrVcbvCdmqtcbvCdkItcbvCdkINcbvCdmrVcbvCdmr5cbvCdkJJcbvCdmrVcbvCdmrRcbvCdkJJcbvCdmrVcbvCdmrBcbvCdmq0iLCJsaWQiOiIyMzgzMTk3MTU3Nzg2NTk6MjFAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMdnF3dThHRUlqK3hNQUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJwWEhrbjd6LzR6YmE3K0pOajFJTGllWVRsSzA1TWMyQTU0Z3FsUCtqMmowPSIsImFjY291bnRTaWduYXR1cmUiOiIwVk5oTTQ1YmZDL3Y1anJyTFdrRXZYYzJPRE02RjBrcDRhaGlaenl1Z3NPTjVNMlF1SDJwTTRyZk00UXZnOWdlc3lKSE40cktVMTA4eHhSUG96Sm5DZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoidFFSSGliczlIV2NwcjV4clIxeFNjVldER2h4b2EyQmdFbWNSTDM3aHB5V0pDcEdaa1ZZV1UyY0o1MHYvMHZESlFoVmZ5anJ0Y0ZtTFZ3ZFV5b0dLQXc9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDk1NTE4NDQwNjoyMUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJhVng1Sis4LytNMjJ1L2lUWTlTQzRubUU1U3RPVEhOZ09lSUtwVC9vOW85In19XSwicGxhdGZvcm0iOiJzbWJhIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzQ1OTYwNzE3LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUw1SCJ9
       "description": "put your session ID, the code you receive after scanning the QR code",
       "value": "",
       "required": true
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {REALDEXSENSEIZ
       "description": "Your Name",
       "required": false,
       "value": "Djalega++"
     },
-    "NUMERO_OWNER": {
+    "NUMERO_OWNER": {+50943766737
       "description": "Your number, don't put '+' and include your area code (example for Togo '228')",
       "required": false,
       "value": "22891733300"
     },
-    "WARN_COUNT": {
+    "WARN_COUNT": {200
       "description": "this is the limit of warnings for warning commands",
       "required": false,
       "value": "3"
     },
-    "STARTING_BOT_MESSAGE": {
+    "STARTING_BOT_MESSAGE": {YES
       "description": "if you don't want a starting-bot-message put no, otherwise put yes",
       "required": true,
       "value": "yes"
     },
-    "PRESENCE": {
+    "PRESENCE": {false
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
       "value": "",
       "required": false
