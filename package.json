@@ -1,13 +1,14 @@
 {
   "name": "zokou-md",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "Best WhatsApp Bot",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "pm2 start index.js --attach --name zokou",
     "zokou": "pm2 start index.js --attach --name zokou",
-    "stop": "pm2 stop zokou"
+    "stop": "pm2 stop zokou",
+    "limit": "systemd-run --scope -p MemoryMax=500M -p CPUQuota=50% node index.js"
   },
   "keywords": [
     "bot",
