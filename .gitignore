@@ -1,4 +1,5 @@
 .vscode
+.clinic/
 auth/*.json
 node_modules
 *.db
